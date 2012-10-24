@@ -1,0 +1,4 @@
+Kaggle - Titanic
+Problem link: https://www.kaggle.com/c/titanic-gettingStarted
+This is  a logistic regression solution for Kaggle Titanic prediction, achieving accuracy about 83%. The code contains a implementation of logistic regression with L2 regularization.
+The data preprocessing part is left out, we construct the training and testing data with only four features: pclass, sex, age and fare.

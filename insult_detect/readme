@@ -1,0 +1,4 @@
+The task is to predict whether a comment posted during a public discussion is considered insulting to one of the participants (https://www.kaggle.com/c/detecting-insults-in-social-commentary).
+The problem is no more than a two classes text classification. After using several methods, my best approach is using classic tf-idf feature extraction (with normalization and idf smoothing) with Gaussian Naive Bayes classifier. 
+One optimization I use is the string preprocessing. As raw data of comment contains lots of meaningless characters, I filters them out and also replace all the numbers with 9. Actually this part can be further optimized for a great many ways.
+Finally I achieved 93% correctness for classification.
