@@ -1,0 +1,4 @@
+This is the code for Kaggle competition Photo Qaulity Prediction (http://www.kaggle.com/c/PhotoQualityPrediction).
+The problem is to predict whether a given photo is of good quality or not based on its meta data rather than the image file. The meta data contains: location of this photo(latitude, longitude), width, heigth, size, and the name, description and caption.
+The approach is based on Random Forest. The key is choosing features from the meta data. Since the name, description and caption usually have few words, text classification method does not get very good result (Naive Bayes with tf-idf only gets around 0.22). Features finally I chose include: avg score of locations, avg score of shape and size, avg score for name, description and caption based on the score of each word etc.. And Random Forest with max_features = 2 turns out to be most effective.
+Finally the approach got 0.19131 of binomial deviance (ranking 28th/200), and the leader is 0.18434.
