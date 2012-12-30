@@ -1,0 +1,11 @@
+This is the code for EMC Data Science Global Hackathon (Air Quality Prediction)
+(http://www.kaggle.com/c/dsg-hackathon). The problem is to predict future air quality
+based on past air quality and some other weather info (some of the data might be missing).
+My best approach is building a linear regression model for each predicted target and for each position
+within the chunk, so totally there are 390 models. Features are mainly past target information.
+Specifically, I include past 24 hour target data into features, which seems to be the most effective
+ones. Also, hour and month information is also important, I binarized them into the features. Additionally,
+the most recent 2 days weather information and the most recent one hour target data also improve the result.
+One thing I feel is that for this kind of time series problem, past target data is very very important, even
+if I only use these data, the result is already good enougth. Finally, after about 68min training, I achieved 
+MAE 0.21795, ranking the 4th.

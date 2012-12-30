@@ -1,0 +1,20 @@
+average by chunk			0.28652
+average by hour in chunk		0.27529
+
+LR with hour_avg and chunk_avg          0.29876
+
+LR with previous 24h for each pos,target 0.22850
+LR with previous 48h for each pos,target 0.22686
+24h prev, hour mean			0.23569
+
+24h prev, prev_our 			 0.22792
+24h prev, prev_our, binary_hour 	0.22166
+24h prev, prev_our, binary_hour, in chunk 	0.22147
+24h prev, prev_our, binary_hour, binary_weekday, in chunk 	0.22252
+24h prev, prev_our, binary_hour, binary_month, in chunk 	0.22105
+48h prev, prev_our, binary_hour, binary_month, in chunk 	0.22098
+24h prev, prev_our, binary_hour, binary_month, binary_site, in chunk 	0.22105
+24h prev, prev_our, binary_hour, binary_month, in chunk, last_weather 	0.21862
+24h prev, prev_our, binary_hour, binary_month, in chunk, last_2_weather 	0.21795
+24h prev, prev_our, binary_hour, binary_month, in chunk, last_3_weather 	0.21827
+48h prev, prev_our, binary_hour, binary_month, in chunk, last_2_weather 	0.21820
