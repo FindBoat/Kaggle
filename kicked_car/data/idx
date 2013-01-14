@@ -1,0 +1,63 @@
+Field Name				Definition
+ RefID				        Unique (sequential) number assigned to vehicles
+ IsBadBuy				Identifies if the kicked vehicle was an avoidable purchase 
+0 PurchDate				The Date the vehicle was Purchased at Auction
+1 Auction (3)				Auction provider at which the  vehicle was purchased
+2 VehYear (10)				The manufacturer's year of the vehicle
+*3 VehicleAge				The Years elapsed since the manufacturer's year
+4 Make	(33)				Vehicle Manufacturer 
+5 Model	(1063)				Vehicle Model
+6 Trim	(135)				Vehicle Trim Level
+7 SubModel (864)		        Vehicle Submodel
+8 Color	(17)				Vehicle Color
+9 Transmission (5)			Vehicles transmission type (Automatic, Manual)
+10 WheelTypeID (5)			The type id of the vehicle wheel
+11 WheelType (4)		        The vehicle wheel type description (Alloy, Covers)
+*12 VehOdo				The vehicles odometer reading
+13 Nationality (5)			The Manufacturer's country
+14 Size (13)				The size category of the vehicle (Compact, SUV, etc.)
+15 TopThreeAmericanName (5)		Identifies if the manufacturer is one of the top three American manufacturers
+*16 MMRAcquisitionAuctionAveragePrice	Acquisition price for this vehicle in average condition at time of purchase	
+*17 MMRAcquisitionAuctionCleanPrice	Acquisition price for this vehicle in the above Average condition at time of purchase
+*18 MMRAcquisitionRetailAveragePrice	Acquisition price for this vehicle in the retail market in average condition at time of purchase
+*19 MMRAcquisitonRetailCleanPrice	Acquisition price for this vehicle in the retail market in above average condition at time of purchase
+*20 MMRCurrentAuctionAveragePrice	Acquisition price for this vehicle in average condition as of current day	
+*21 MMRCurrentAuctionCleanPrice		Acquisition price for this vehicle in the above condition as of current day
+*22 MMRCurrentRetailAveragePrice        Acquisition price for this vehicle in the retail market in average condition as of current day
+*23 MMRCurrentRetailCleanPrice		Acquisition price for this vehicle in the retail market in above average condition as of current day
+24 PRIMEUNIT (3)			Identifies if the vehicle would have a higher demand than a standard purchase
+25 AUCGUART (3)				The level guarntee provided by auction for the vehicle (Green light - Guaranteed/arbitratable,      Yellow Light - caution/issue, red light - sold as is)
+26 BYRNO (74)				Unique number assigned to the buyer that purchased the vehicle
+27 VNZIP (163)                          Zipcode where the car was purchased
+28 VNST (37)                            State where the the car was purchased
+*29 VehBCost				Acquisition cost paid for the vehicle at time of purchase
+30 IsOnlineSale	(2)			Identifies if the vehicle was originally purchased online
+*31 WarrantyCost                        Warranty price (term=36month  and millage=36K) 
+
+
+
+[ 0.11074237  0.10457275  0.04262179  0.04206746  0.03988719  0.0396514
+  0.03864223  0.03826018  0.03824352  0.03791842  0.03714719  0.0364236
+  0.03529239  0.03211145  0.03013207  0.02963083  0.02820693  0.0277857
+  0.02660546  0.0241205   0.02401912  0.02379755  0.02328335  0.0194586
+  0.01837794  0.01630656  0.01116595  0.00631357  0.00553677  0.0055280
+  0.0038861   0.00226295]                                              
+[10, 11, 29, 17, 12, 16, 20, 21, 23, 19, 22, 18, 0, 31, 26, 27, 5, 3, 7, 28, 6, 2, 8, 4, 1, 14, 15, 13, 24, 25, 9, 30]    
+
+[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 24, 25, 26, 27, 28, 30]
+
+
+[36, 41, 0, 12, 32, 29, 16, 1, 8, 20, 18, 5, 22, 38, 4, 27, 49, 26, 21,                                                                      
+ 48, 17, 6, 7, 31, 3, 2, 23, 39, 19, 50, 28, 37, 10, 14, 44, 35, 9, 24,                                                                      
+ 13, 47, 30, 15, 34, 45, 46, 33, 40, 25, 42, 43, 11, 51]
+
+
+36, 41, 32, 38, 49, 48, 39, 50, 37, 44, 35, 47, 34, 45, 46, 33, 40, 42, 43, 51
+5,  10,  0,  7, 27, 26,  8, 28,  6, 14, 4,  25, 2,  15, 24, 1,  9,  11, 13, 30
+
+
+
+
+
+
+

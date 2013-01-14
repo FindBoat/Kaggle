@@ -1,0 +1,98 @@
+	RF 300, num   			   		.876958     .369  .018  0.0344        0.14464
+RF 300, num, ds 2				.813428     .262  .296  0.278         0.15263
+RF 300, num+diff, ds 2				.814524     .257  .279  0.268         0.14948
+RF 300, num+diff2, ds 2				.813        .262  .296  0.278         0.15370
+RF 300, num+diff2+avg_meter, ds 2	        .814        .258  .282  0.260         0.15031
+RF 300, num+diff2-price, ds 2	                .823        .273  .278  0.275         0.15144
+RF 300, num+diff2, ds 1.5			.755        .230  .433  0.300         0.15396
+RF 300, num+diff3, ds 1.5			.772        .253  .448  0.323         0.17862
+
+
+RF 300, num+diff2, ds 1.5			.755        .230  .433  0.300         0.15396
+RF 300, num+diff2, ds 2				.813        .262  .296  0.278         0.15370      
+RF 300, num+diff2+auction, ds 2		        .820        .276  .297  0.286         0.15909	6  (1)
+RF 300, num+diff2+year, ds 2		        .816        .260  .278  0.268         0.15254      (2)
+RF 300, num+diff2+make, ds 2		        .823        .272  .274  0.273         0.15659	9  (4)
+RF 300, num+diff2+trim, ds 2		        .839        .292  .239  0.257         0.15980	5  (6)
+RF 300, num+diff2+color, ds 2		        .823        .270  .268  0.270         0.15550	10 (8)
+RF 300, num+diff2+trans, ds 2		        .820        .272  .286  0.279         0.15452	11 (9)
+RF 300, num+diff2+w_type_id, ds 2	        .864        .432  .378  0.403         0.22412	2  (10)
+RF 300, num+diff2+w_type, ds 2	                .864        .429  .367  0.396         0.22440	1  (11)     
+RF 300, num+diff2+nation, ds 2	                .814        .263  .294  0.278         0.15165      (13)
+RF 300, num+diff2+size, ds 2	                .819        .266  .279  0.272         0.15121      (14)
+RF 300, num+diff2+top3, ds 2	                .819        .266  .277  0.271         0.15377	12 (15)
+RF 300, num+diff2+prim, ds 2	                .820        .284  .316  0.300         0.16330	3  (24)
+RF 300, num+diff2+byrno, ds 2	                .832        .285  .252  0.268         0.15859	8  (26)
+RF 300, num+diff2+zip, ds 2	                .837        .292  .237  0.262         0.16025	4  (27)
+RF 300, num+diff2+state, ds 2	                .833        .291  .258  0.273         0.15901	7  (28)
+RF 300, num+diff2+online, ds 2	                .820        .270  .288  0.279         0.15365      (30)
+
+RF 300, num+diff2+top2, ds 2	       	        .862        .422  .373  0.396         0.22514
+RF 300, num+diff2+top3, ds 2	       	        .862        .423  .381  0.401         0.22804
+RF 300, num+diff2+top4, ds 2	       	        .875        .483  .361  0.413         0.23637
+RF 300, num+diff2+top5, ds 2	       	        .874        .476  .364  0.412         0.23707
+RF 300, num+diff2+top4+6, ds 2	       	        .878        .499  .361  0.419         0.23448
+RF 300, num+diff2+top6, ds 2	       	        .878        .499  .362  0.420         0.23848
+RF 300, num+diff2+top12, ds 2	       	        .881        .512  .362  0.424         0.23776
+RF 300, num+diff2+top12, ds 1.5	       	        .838        .370  .477  0.417         0.23885
+RF 300, num+diff2+top6, ds 1.5	       	        .841        .373  .457  0.410         0.23785
+RF 300, num+diff2+top12, chi 300 ds 1.5	       	.840        .373  .465  0.414         0.24088
+RF 300, num+diff2+top12, chi 300 ds 2	       	.880        .505  .360  0.420         0.23887
+RF 300, num+diff2+top12, chi 350 ds 2	       	.879        .503  .365  0.423         0.23774
+RF 300, num+diff2+top12, chi 350 ds 1.5	       	.843        .383  .476  0.424         0.24114
+RF 1000, num+diff2+top12, chi 350 ds 1.5	--          --    --    --            0.24327
+RF 300, num+diff2+top12, chi 400 ds 1.5	       	.845        .384  .464  0.420         0.24021
+RF 300, num+diff2+top12+log, chi 350 ds 1.5	.846        .388  .468  0.425         0.24037
+RF 300, num+diff2+all_cate, chi 350 ds 1.5	.836        .367  .476  0.415         0.24048
+RF 300, num+diff2+top12+tree, chi 350 ds 1.5	.840        .374  .469  0.416         0.24097
+RF 300, num+diff2+top12+tree, chi 300 ds 1.5	.844        .383  .462  0.419         0.23820
+RF 300, num+diff2+top12+tree, chi 300 ds 2	.882        .517  .368  0.430         0.23821
+RF 300, num+diff2+top12+tree, chi 350 ds 2	.800        .508  .371  0.429         0.23855
+RF 300, num+diff2+top12+tree, chi 400 ds 1.5	.844        .383  .464  0.419         0.24075
+
+RF 1000, num+diff2+top12+avg, chi 350 ds 1.5	--          --    --    --            0.24221
+RF 300, num+diff2+top12+avg, chi 350 ds 1.5	.845        .386  .459  0.419         0.23697
+RF 300, num+diff2+top12+avg, chi 300 ds 1.5	.843        .382  .467  0.420         0.23885
+
+
+RF 300, num+diff3+top12, chi 350 ds 1.5	       	.843        .383  .476  0.424         0.24166
+RF 300, num+diff3+tree,  ds 1.5  	       	.837        .368  .474  0.415         0.23893
+RF 300, num+diff3+top2+tree,  ds 1.5  	       	.837        .366  .468  0.411         0.23570
+RF 300, num+diff3+tree2,  ds 1.5  	       	.822        .334  .469  0.390         0.22707
+RF 1000, (11, 15, 27, 24, 1)							      0.24151
+RF 300, (11, 15, 27, 24, 1), ds 1.5		.834        .365  .476  .413	      0.23842
+
+RF 300, num+diff3+top_all, chi 350 ds 1.5	.837        .368  .473  0.414         0.24085
+RF 300, num+diff2+top12, chi 350 ds 1.5	       	.843        .383  .476  0.424         0.24114
+RF 300, num+diff2+top12, tree 100 ds 1.5	.836        .364  .470  0.410         0.23528	
+RF 300, num+diff2+top12, tree 200 ds 1.5	.839        .369  .462  0.410         0.23745
+RF 300, num+diff2+top12, tree 300 ds 1.5	.832        .354  .470  0.404         0.23866	
+RF 300, num+diff2+top12, tree 300 ds 2		.880        .508  .373  0.430         0.23965
+RF 300, num+diff2+top12, tree 350 ds 2		.880        .507  .368  0.427         0.23686				   				    			     				      			      
+RF 1000, [10, 11, 24, 27, 6, 1, 28, 4, 9, 15], ds 1.5				      0.24364
+RF 300, [10, 11, 24, 27, 6, 1, 28, 4, 9, 15], ds 1.5    .834 .363 .488  .416	       .23936
+
+RF 300, num+diff3+all, chi 300 ds 1.5		.837        .370  .480  0.417         0.24263
+RF 300, num+diff3+all, chi 320 ds 1.5		.838        .371  .481  0.419         0.24126
+RF 300, num+diff3+all, chi 350 ds 1.5		.837        .365  .467  0.410         0.23921
+RF 300, num+diff3+all, chi 280 ds 1.5		.829        .353  .487  0.410         0.24036	
+RF 300, num+diff3+all, chi 250 ds 1.5		.832        .358  .480  0.410         0.24113	
+
+RF 300, num+diff3+all+avg, chi 300 ds 1.5       .838        .372  .483  0.421         0.24431
+RF 1000, num+diff3+all+ratio, chi 300 ds 1.5                                          0.24644
+RF 300, num+diff3+all+ratio, chi 300 ds 1.5     .838        .372  .483  0.421         0.24005
+RF 300, num+diff3+all+ratio, chi 300 ds 1.5     .838        .372  .483  0.421         0.24462
+
+RF 300, num+diff3+all+ratio, tree 300 ds 1.5        			              0.24421
+RF 1000, num+diff3+all+ratio, tree 300 ds 1.5        			              0.24981	
+RF 300, num+diff3+all+ratio, tree 300 ds 1.7        			              0.24270
+RF 300, num+diff3+all+ratio, tree 300 ds 1.3        			              0.24393
+RF 300, num+diff3+all+avg, tree 300 ds 1.5        			              0.24289
+RF 300, num+diff3+all+tree, tree 300 ds 1.5        			              0.24263
+RF 300, num+diff3+all+ratio+year, tree 300 ds 1.5        			      0.24565
+RF 300, num+diff3+all+ratio+year,month, tree 300 ds 1.5        			      0.24696
+RF 1000, num+diff3+all+ratio+year,month, tree 300 ds 1.5        	              0.25147 (31)
+RF 300, num+diff3+all+all_ratio+year,month, tree 300 ds 1.5        	              0.24627
+RF 1000, num+diff3+all+all_ratio+year,month, tree 300 ds 1.5        	              0.24958
+------------------------------------------------------------------------------------------------------------ 
+

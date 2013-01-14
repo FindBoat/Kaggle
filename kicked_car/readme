@@ -1,0 +1,13 @@
+This is the code for Kaggle - Don't Get Kicked! The problem is to predict if a car purchased is a kick,
+ which means the car purchased by an auto dealership at an auto auction might have serious issues that
+ prevent it from being sold to customers. There are about 30 features of a car given, most of which are
+ categorical features like the model of the car, which country produced the car etc.. Also, this is a 
+skewed class problem as only 1/7 of the cars are marked as kicks. For more details, check Kaggle’s official
+ description http://www.kaggle.com/c/DontGetKicked.
+My approach is based on random forest and most of my time was spent on feature engineering. For numerical features,
+ I found differences between prices quite informative, and I added about 14 features based on these. For categorical
+features, I binarized all of them except "model" and "submodel". Also for each categorical feature, I added the
+log-likelihood ratio of it, which boost the result a little bit. Totally I got 500+ features, which turned out to be 
+redundant. So I trained a decision tree with these 500+ features and selected best 300 features based on Gini impurity.
+Since this is a skewed classes problem, I down sampled the training set to make pos/neg ratio 1/1.5.
+With about 1h training, my best performance is 0.25147, ranking 31 among 571 groups. And the leader is 0.26720.
